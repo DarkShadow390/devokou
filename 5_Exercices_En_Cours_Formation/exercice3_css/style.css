@@ -1,0 +1,16 @@
+li:nth-child(even){
+    color: blue;
+}
+
+
+/*inverser les couleur noir bleu au survole*/
+
+ol:hover li:nth-child(even) {
+    color: black;
+}
+ol:hover li:nth-child(odd) {
+    color: blue;
+}
+
+
+
