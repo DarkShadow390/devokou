@@ -1,0 +1,29 @@
+table{
+    border: thick double darkviolet;/* na pas utiliser "border : solid;" quand je veut utiliser "border: thick double purple;"*/
+    border-collapse: collapse;
+}
+
+caption{
+    color: darkviolet;
+    font-weight: bold;
+}
+
+tr td, tr th{
+    border: solid 1px;
+    text-align: center;
+    border-right: solid 2px;
+}
+
+tr th{
+    background-color: lightskyblue;
+}
+
+
+
+tr td:nth-last-child(1){
+    border-right: none;
+}
+
+tr th:nth-last-child(1){
+    border-right: none;
+}
