@@ -1,0 +1,35 @@
+table{
+    border: thick double ;
+    border-collapse: collapse ;
+    border-color: chartreuse;
+    
+    
+}
+
+caption{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+
+tr th, tr td{
+    border: solid 2px;
+    text-align: center;
+    
+}
+
+thead{
+    background-color: #43a047;
+    color: chartreuse;
+}
+
+tbody{
+    background-color: #8bc34a;
+    color: darkgreen;
+}
+
+tr td{
+    border-color: chartreuse ;
+    
+}
