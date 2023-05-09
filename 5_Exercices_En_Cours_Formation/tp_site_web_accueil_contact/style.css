@@ -1,0 +1,40 @@
+body{
+    background-image: radial-gradient(#CCDAE0 ,#EDF2F4);
+   
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    color: #EF233C;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h3{
+    color: #2B2D42;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration:dotted;
+}
+
+
+article{
+    border: 1px solid;
+}
+
+
+img{
+    border: #8D99AE solid 2px;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
