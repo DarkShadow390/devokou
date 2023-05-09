@@ -76,6 +76,46 @@
                 <label for="rien">Ne rien faire</label>
             </div>
         </fieldset>
+        <fieldset>
+            <legend>Vous vous levez:</legend>
+            <div>
+                <input type="radio" name="choix" checked>
+                <label for="matin">Le matin</label>
+            </div>
+            <div>
+                <input type="radio" name="choix">
+                <label for="midi">Le midi</label>
+            </div>
+            <div>
+                <input type="radio" name="choix">
+                <label for="soir">Le soir</label>
+            </div>
+            <div>
+                <input type="radio" name="choix">
+                <label for="retard">En retard !</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Fin du formulaire</legend>
+            <div>
+                <label for="vousEnAvezAssez">Vous en avez assez ?</label>
+                <select name="vousEnAvezAssez" >
+                    <optgroup label="Team pas encore">
+                        <option value="option1" selected>J'en veux plus</option>
+                        <option value="option2">C'est super !</option>
+                    </optgroup>
+                    <optgroup label="Team Oula">
+                        <option value="option3">J'en ai marre</option>
+                        <option value="option4">Pitié !</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Envoyez">
+                <input type="reset" value="Reset">
+            </div>
+            
+        </fieldset>
         
 
 
