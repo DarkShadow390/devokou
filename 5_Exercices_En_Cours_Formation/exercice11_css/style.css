@@ -1,0 +1,76 @@
+.dice{
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+}
+
+div:nth-of-type(1){
+    justify-content: center;
+    align-items: center;
+}
+div:nth-of-type(2){
+    align-items: center;
+    justify-content: space-evenly
+}
+div:nth-of-type(3){
+    align-items: center;
+    justify-content: space-evenly
+}
+div:nth-of-type(4){
+    justify-content: space-around;
+}
+div:nth-of-type(4) div:nth-of-type(1){
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div:nth-of-type(4) div:nth-of-type(2){
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div:nth-of-type(5){
+    justify-content: space-around;
+}
+div:nth-of-type(5) div:nth-of-type(1){
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div:nth-of-type(5) div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div:nth-of-type(5) div:nth-of-type(3){
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div:nth-of-type(6){
+    justify-content: space-around;
+}
+div:nth-of-type(6) div:nth-of-type(1){
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div:nth-of-type(6) div:nth-of-type(2){
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
