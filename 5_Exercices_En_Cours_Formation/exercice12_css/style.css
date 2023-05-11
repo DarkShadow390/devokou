@@ -1,0 +1,21 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+nav{
+    display: grid;
+    justify-items: center;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    column-gap: 20px;
+}
+
+header{
+    display: grid;
+    justify-items:center ;
+}
