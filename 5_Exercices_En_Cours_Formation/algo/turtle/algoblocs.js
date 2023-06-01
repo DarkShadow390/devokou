@@ -494,10 +494,10 @@ for(let i = 0 ; i < 8 ; i++){
     }
 }
 
-*/
 
-// SERiE bonus 
 
+// SERIE bonus 
+//exercice 1
 changeColor(color.aqua);
 faceDown();
 forward(100);
@@ -515,34 +515,77 @@ changeColor(color.green);
 forward(100);
 
 
-up();
-forward(400);
-faceUp();
-forward(100);
-down();
 
 
+//SERIE D
+//D6
+//initialisation
+changeColor(color.blue);
+faceRight();
+
+//Réalisation
+
+let length = 100;
+forward(length);
 faceDown();
+length = 200;
+forward(length);
+faceRight();
+length = 300;
+forward(length);
 
 
-for(let i = 0 ; i < 3 ; i++){
-    shiftColor(1)
-    for(let j = 0 ; j < 1 ; j++){
-        forward(100);
-        faceRight();
-        forward(100);
-        faceDown();
-    }
-    up()
-    shiftColor(0.25)
-    arcLeft(100,180);
-    down();
-    
+
+
+
+//D9
+//initialisation
+changeColor(color.blue);
+faceRight();
+
+//Réalisation
+let length = 100;
+for(let i = 0 ; i < 6 ; i++){
+    forward(length);
+    right(180-60);
+    length += 100; 
 }
 
 
 
+//D9
+//initialisation
+changeColor(color.gray);
+faceRight();
+
+//Réalisation
+let length = 250;
+for(let i = 0  ; i < 5 ; i++){
+    
+    for(let j = 0 ; j < 3 ; j++){
+        forward(length);
+        left(180-60);
+    }
+    forward(length);
+    length -= 50;
+}
 
 
+//D12
+//initialisation
+changeColor(color.blue);
+faceRight();
 
+//Réalisation
+let length = 100;
+for(let i = 0  ; i < 6 ; i++){
+    
+    for(let j = 0 ; j < 4 ; j++){
+        forward(length);
+        left(180-60);
+    }
+    right(180-120);
+    length += 50;
+}
 
+*/
