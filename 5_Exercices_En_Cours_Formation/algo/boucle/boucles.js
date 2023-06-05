@@ -1,7 +1,7 @@
 // Exercice 1 : écrire 50 fois "Bonjour" dans la console.
 console.log("Exercice 1");
 // TODO
-for(let i = 0 ; i < 50 ; i++){
+for (let i = 0; i < 50; i++) {
     console.log("bonjour");
 }
 // Exercice 2 : écrire dans la console :
@@ -17,7 +17,7 @@ for(let i = 0 ; i < 50 ; i++){
 // B
 console.log("Exercice 2");
 // TODO
-for(let i = 0 ; i < 5 ; i++){
+for (let i = 0; i < 5; i++) {
     console.log("A");
     console.log("B");
 }
@@ -42,11 +42,11 @@ for(let i = 0 ; i < 5 ; i++){
 // B
 console.log("Exercice 3");
 // TODO
-for(let i = 0 ; i < 3 ; i++){
-    for(let j = 0 ; j < 5 ; j++){
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 5; j++) {
         console.log("A");
     }
-    
+
     console.log("B");
 }
 // Exercice 4 : écrire dans la console :
@@ -62,10 +62,11 @@ for(let i = 0 ; i < 3 ; i++){
 // 9
 console.log("Exercice 4");
 // TODO
-let chiffre = -1;
-for(let i = 0 ; i < 10 ; i++){
+let chiffre = 0;
+for (let i = 0; i < 10; i++) {
+    console.log(chiffre);
     chiffre += 1;
-    console.log(chiffre)
+
 }
 // Exercice 5 : écrire dans la console :
 // 3
@@ -80,10 +81,11 @@ for(let i = 0 ; i < 10 ; i++){
 // 12
 console.log("Exercice 5");
 // TODO
-chiffre = 2;
-for(let i = 0 ; i < 10 ; i++){
+chiffre = 3;
+for (let i = 0; i < 10; i++) {
+    console.log(chiffre);
     chiffre += 1;
-    console.log(chiffre)
+
 }
 
 // Exerice 6 : écrire dans la console :
@@ -102,15 +104,23 @@ console.log("Exercice 6");
 let chiffre0 = 0;
 let chiffre1 = 1;
 
-for(let i = 0 ; i < 2 ; i++){
-    chiffre = -1;
-    for(let j = 0 ; j < 4 ; j++){
-        chiffre += 1;
+for (let i = 0; i < 2; i++) {
+    chiffre = 0;
+    for (let j = 0; j < 4; j++) {
         console.log(chiffre);
+        chiffre += 1;
+
     }
 }
 console.log(chiffre0);
 console.log(chiffre1);
+
+
+
+console.log("Exercice 6 bis");
+for (let i = 0; i < 10; i++) {
+    console.log(i % 4);
+}
 // Exercice 7 : écrire dans la console :
 // 0
 // 1
@@ -126,16 +136,24 @@ console.log("Exercice 7");
 // TODO
 let chiffre9 = 9;
 let chiffre8 = 8;
-chiffre = -1;
-for(let i = 0 ; i < 5 ; i++){
-    chiffre++;
+chiffre = 0;
+for (let i = 0; i < 5; i++) {
     console.log(chiffre);
+    chiffre++;
+
 }
-for(let i = 0 ; i < 3 ; i++){
+for (let i = 0; i < 3; i++) {
     console.log("A");
 }
 console.log(chiffre8);
 console.log(chiffre9);
+
+
+console.log("Exercice 7 bis");
+for (let i = 0; i < 10; i++) {
+    if (i > 4 && i < 8) { console.log("A"); } 
+    else { console.log(i); }
+}
 // Exercice 8 : écrire dans la console :
 // 100
 // 1
@@ -153,7 +171,7 @@ let chiffre100 = 100;
 let chiffre2 = 2;
 let chiffre109 = 109;
 
-for(let i = 0 ; i < 3 ; i++){
+for (let i = 0; i < 3; i++) {
     console.log(chiffre100);
     chiffre100 += 3;
 
@@ -165,6 +183,15 @@ for(let i = 0 ; i < 3 ; i++){
 }
 console.log(chiffre109);
 
+console.log("Exercice 8 bis");
+for (let i = 0; i < 10; i++) {
+    if (i % 3 == 0) {
+        console.log(i + 100);
+    }
+    else {
+        console.log(i);
+    }
+}
 // Exercice 9 : écrire dans la console :
 // 0
 // 101
@@ -180,7 +207,7 @@ console.log("Exercice 9");
 // TODO
 let nombre101 = 101;
 let nombre202 = 202
-for(let i = 0 ; i < 3 ; i++){
+for (let i = 0; i < 3; i++) {
     console.log(chiffre0);
     chiffre0 += 3;
 
@@ -203,17 +230,17 @@ console.log("Exercice 10");
 // 
 chiffre1 = 1;
 chiffre2 = 1;
-for(let i = 1 ; i < 7 ; i++){
-    for(let j = 1 ; j < 7; j++){
-        console.log(chiffre1,chiffre2);
+for (let i = 1; i < 7; i++) {
+    for (let j = 1; j < 7; j++) {
+        console.log(chiffre1, chiffre2);
         chiffre2 += 1;
     }
     chiffre1 += 1;
     chiffre2 = 1;
 }
 
-    
-    
+
+
 // Exercice 11 : adapter l'exercice précédent pour enlever les doublons (on ne veut pas afficher 1 2 et 2 1, mais seulement l'un des deux).
 console.log("Exercice 11");
 // TODO
