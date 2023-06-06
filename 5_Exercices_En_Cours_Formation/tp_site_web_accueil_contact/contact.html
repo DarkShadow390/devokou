@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact</title>
+    </head>
+    <body> 
+        <header>
+            <img src="baniere.jpg" alt="bannière de 800x200 px">
+            <h1>Bienvenu sur mon site !</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html #article3">Blog</a></li>
+                    <li><a href="#">Gallerie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form action="pageFictive.php" method="post">
+                <fieldset>
+                    <legend>Contact</legend>
+                    <div>
+                        <label for="nom">Nom:<strong>*</strong></label>
+                        <input type="text" name="nom" placeholder="Ex: Robert">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:<strong>*</strong></label>
+                        <input type="email" name="mail" placeholder="Ex: monMail@FAI.com">
+                    </div>
+                    <label for="commentaire">Laissez un commentaire:</label>
+                    <div>
+                        <textarea name="commentaire" cols="70" rows="10" placeholder="Je dépose mon avis :)"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="copie" checked>
+                        <label for="copie">Envoyer une copie par E-mail !</label>
+                        
+                    </div>
+                    <div id="bouton">
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Reset">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="pagefictive1.html">Menu 1</a></li>
+                <li><a href="pagefictive2.html">Menu 2</a></li>
+                <li><a href="pagefictive3.html">Menu 3</a></li>
+                <li><a href="pagefictive4.html">Menu 4</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

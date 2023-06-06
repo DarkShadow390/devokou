@@ -1,0 +1,66 @@
+form{
+    height: 250px;
+    width: 400px;
+    border: solid ;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+div:nth-of-type(4){
+    text-align: center;
+    margin: 0;
+}
+
+
+h1{
+    text-align: center;
+    background-color: green;
+}
+
+div{
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.textUser label{
+    margin-right: 20px;
+}
+
+#choix input{
+    margin-right: 10px;
+}
+
+#choix{
+    margin-bottom: 0;
+    background-color: blueviolet;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#bouton input{
+    padding: 5px;
+    background-color: white;
+}
+#bouton input:nth-child(1){
+    margin-right: 20px;
+}
+
+#bouton input:hover{
+    
+    background-color: black;
+    color: white;
+
+}
+#bouton{
+    margin-top: 25px;
+    background-color: yellow;
+}
+#pseudo{
+    background-color: red;
+}
+#motDePasse{
+    background-color: rgb(37, 168, 201);
+}

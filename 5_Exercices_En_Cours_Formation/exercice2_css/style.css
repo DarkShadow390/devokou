@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 4em;
+}
+
+h3{
+    color: blue;
+    font-size: 2em;
+}
+
+
+p{
+    background-color: gray;
+}
+
+
+strong{
+    font-weight: normal;
+    color: yellowgreen;
+    
+}
+
+em{
+    font-style: normal;
+    color: orange;
+    text-decoration: underline;
+    font-size: 1.225em;
+}
+
+
+#titreDeux{
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
+
+
+#paraTrois{
+    background-color: pink;
+    
+}
