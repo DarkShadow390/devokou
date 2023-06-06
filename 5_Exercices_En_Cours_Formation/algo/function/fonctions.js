@@ -88,8 +88,8 @@ while((10*x)>y){
 console.log(x,y,z);
 
 //Pydéfis lvl1 Le message pour Queulorior
-
-setPos(0,100);
+// utliser la turtle pour afficher le message 
+/*setPos(0,100);
 let nord = "N";
 let est = "E";
 let sud = "S";
@@ -119,3 +119,14 @@ for(let i = 0; i < message.length ; i++){
     oneStep(message[i]);
     
 }
+*/
+//Pydéfis lvl1 Désamorçage à la Tony Stark
+let total = 0;
+for(let i = 1 ; i < 1435; i++){
+    if(i%3 == 0 || i%5 == 0){
+        total += i;
+    }
+}
+console.log(total);
+
+//Pydéfis lvl1 Désamorçage d'un explosif (I)
