@@ -261,7 +261,15 @@ console.log("Exercice 12");
 // 1x9 = 9
 console.log("Exercice 13");
 // TODO
-
+chiffre1 = 1;
+for(let i = 1; i <=9; i++){
+    console.log(chiffre1,"x",i,"=",chiffre1*i);
+}
+console.log("Exercice 13 bis");
+for(let i = 1; i <=9; i++){
+    let mot = chiffre1 + "x" + i + " " + "="+ " " + (chiffre1*i);
+    console.log(mot);
+}
 // Exercice 14 : que faut-il modifier du code précédent pour obtenir la table de 2 :
 // 2x1 = 2
 // 2x2 = 4
@@ -274,7 +282,10 @@ console.log("Exercice 13");
 // 2x9 = 18
 console.log("Exercice 14");
 // TODO
-
+chiffre2 = 2;
+for(let i = 1; i <=9; i++){
+    console.log(chiffre2,"x",i,"=",chiffre2*i);
+}
 // Exercice 15 : comment généraliser pour afficher toutes les tables de multiplication de 1 à 9 :
 // 1x1 = 1
 // 1x2 = 2
@@ -286,10 +297,32 @@ console.log("Exercice 14");
 // 9x9 = 81
 console.log("Exercice 15");
 // TODO
+chiffre1 = 1;
+chiffre2 = 1;
+for (let i = 1; i <= 9; i++) {
+    for (let j = 1; j <= 9; j++) {
+        console.log(chiffre1,"x",chiffre2,"=",chiffre1*chiffre2);
+        chiffre2 += 1;
+    }
+    chiffre1 += 1;
+    chiffre2 = 1;
+}
 
 // Exercice 16 : calculer 1+2+3+4+...+99+100. (Vous devriez trouver 5050)
 console.log("Exercice 16");
 // TODO
+for(let i = 1; i <= 100; i++){
+    for(let j = 2; j <= 100; j++){
+        i+=j;
+    }
+    console.log(i);
+}
+console.log("Exercice 16.1");
+let total = 0;
+for(let i = 1; i <= 100; ++i){
+    total +=i;
+}
+console.log(total);
 
 // Exercice 17 : trouver le nombre n tel que 1+2+3+4+5+...+(n-1)+n = 302253
 console.log("Exercice 17");
