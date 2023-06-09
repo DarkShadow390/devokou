@@ -130,3 +130,18 @@ for(let i = 1 ; i < 1435; i++){
 console.log(total);
 
 //Pydéfis lvl1 Désamorçage d'un explosif (I)
+
+let numeroSerie = 797114;
+
+// let U = 797;
+// let N = 114;
+let U = "317";
+let N = "10";
+
+for(let i = 0; i < N; i++){
+    U = U*13;
+    console.log(U);
+    U = U.charAt(U.length(-1,-2));
+    
+    
+}
